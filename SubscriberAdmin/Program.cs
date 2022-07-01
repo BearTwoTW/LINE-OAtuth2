@@ -36,8 +36,8 @@ app.MapGet("/callback", async (SubscriberContext db, string code, string state) 
         dict.Add("grant_type", "authorization_code");
         dict.Add("code", code);
         dict.Add("redirect_uri", "https://test.genesys-tech.com/callback");
-        dict.Add("client_id", "1657258503");
-        dict.Add("client_secret", "8f8f4005aa0d84e9c31afaf01d12a079");
+        dict.Add("client_id", "client_id");
+        dict.Add("client_secret", "client_secret");
 
         FormUrlEncodedContent content = new(dict);
         content.Headers.Clear();
@@ -102,8 +102,8 @@ app.MapGet("/callbacknotify", async (SubscriberContext db, string code, string s
             dict.Add("grant_type", "authorization_code");
             dict.Add("code", code);
             dict.Add("redirect_uri", "https://test.genesys-tech.com/callbacknotify");
-            dict.Add("client_id", "FdFAtkbLdfWWrGNznSjPnQ");
-            dict.Add("client_secret", "7UtkaXD8llHhCBBJqu3SsA6rwViQbCmosdITyyBHDsY");
+            dict.Add("client_id", "client_id");
+            dict.Add("client_secret", "client_secret");
 
             FormUrlEncodedContent content = new(dict);
             content.Headers.Clear();
