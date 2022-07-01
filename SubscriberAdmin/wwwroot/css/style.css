@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* above css reset */
+
+*,
+*:before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+
+/* begin */
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    background: rgb(192, 192, 192);
+}
+
+h1{
+    height: 36px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.container{
+    width: 240px;
+    margin: 80px auto 0;
+}
+
+.header{
+    background: #fff;
+}
+
+.header h1{
+        height: 120px;
+    line-height: 120px;
+}
+
+.logo{
+    width: 50%;
+   display: block;
+    margin: 0 auto;
+}
+
+.content{
+    padding-top: 24px;
+    background: #000;
+    text-align: center;
+}
+
+.content hr{
+    border-width: 0;
+}
+
+.input-control{
+    height: 24px;
+    width: 168px;
+    display: block;
+    margin: 0 auto;
+}
+
+.content-a{
+    display: block;
+    height: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.login-divider{
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.bar-top{
+    width: 41%;
+    height: 2px;
+    background: #fff;
+}
+
+.login-or{
+    display: block;
+    width: 18%;
+    text-align: center;
+}
+
+.bar-buttom{
+    width: 41%;
+    height: 2px;
+    background: #fff;
+}
+
+.footer{
+    background: #000;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.logout{
+    height: 24px;
+    font-size: 24px;
+    color: #fff;
+}
